@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/libs.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Дилери</title>
+</head>
+
+
+<body class="not-is-home">
+<header class="header">
+    <div class="container">
+        <div id="nav" class="navbar">
+            <div class="navbar-top">
+                <a href="/" class="navbar__logo"><img src="img/logo-white.webp" alt="Haval"></a>
+
+                <div class="navbar__panel">
+                    <a href="" class="navbar__panel--link navbar__panel--link-soc" title="Онлайн-шоурум"><svg><use xlink:href="img/svg/sprite.svg#virtual-reality"></use></svg></a>
+                    <a href="" class="navbar__panel--link navbar__panel--link-soc youtybe" title="YouTube"><svg><use xlink:href="img/svg/sprite.svg#youtube"></use></svg></a>
+                    <a href="" class="navbar__panel--link navbar__panel--link-soc facebook" title="Facebook"><svg><use xlink:href="img/svg/sprite.svg#facebook"></use></svg></a>
+                    <a href="" class="navbar__panel--link navbar__panel--link-soc" title="Официальный сайт Haval"><svg><use xlink:href="img/svg/sprite.svg#home"></use></svg></a>
+                    <a href="" class="navbar__panel--link toogle-lang"><svg><use xlink:href="img/svg/sprite.svg#earth"></use></svg></a>
+                    <a href="" class="navbar__panel--link toggle-search"><svg><use xlink:href="img/svg/sprite.svg#search"></use></svg></a>
+                    <div class="burger"><div class="burger__patty"></div></div>
+                </div>
+            </div>
+
+            <nav class="navbar-bottom">
+                <ul class="main-menu">
+                    <li class="main-menu__item active"><a href="#"><span>Головна</span></a></li>
+                    <li class="main-menu__item has-dropdown">
+                        <a href="#"><span>Автомобілі</span></a>
+
+                        <div class="sub-menu sub-menu--full">
+                            <div class="container">
+                                <ul>
+                                    <li><a href="#"><img src="img/h6-004.jpg" alt=""><span>Haval H6 NEW</span></a></li>
+                                    <li><a href="#"><img src="img/h6-004.jpg" alt=""><span>Haval Jolion</span></a></li>
+                                    <li><a href="#"><img src="img/h6-004.jpg" alt=""><span>Haval H2 FL</span></a></li>
+                                    <li><a href="#"><img src="img/h6-004.jpg" alt=""><span>Haval H6</span></a></li>
+                                    <li><a href="#"><img src="img/h6-004.jpg" alt=""><span>Haval H9</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-menu__item"><a href="#"><span>Конфігуратор</span></a></li>
+                    <li class="main-menu__item"><a href="#"><span>Склад</span></a></li>
+                    <li class="main-menu__item"><a href="#"><span>Кредит</span></a></li>
+                    <li class="main-menu__item"><a href="#"><span>Дилери</span></a></li>
+                    <li class="main-menu__item"><a href="#"><span>Сервіс</span></a></li>
+                    <li class="main-menu__item"><a href="#"><span>Новини</span></a></li>
+                    <li class="main-menu__item has-dropdown part">
+                        <a href="#"><span>Про Haval</span></a>
+
+                        <div class="sub-menu sub-menu--part">
+                            <div class="container">
+                                <ul>
+                                    <li><a href="#"><span>ТОВ «Нова енергія України»</span></a></li>
+                                    <li><a href="#"><span>Історія і факти HAVAL</span></a></li>
+                                    <li><a href="#"><span>Стратегія HAVAL</span></a></li>
+                                    <li><a href="#"><span>Нагороди</span></a></li>
+                                    <li><a href="#"><span>Виробництво і Розробка</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-menu__item"><a href="#"><span>Контакти</span></a></li>
+                </ul>
+                <div class="social-link">
+                    <a href="" class="navbar__panel--link" title="Онлайн-шоурум"><svg><use xlink:href="img/svg/sprite.svg#virtual-reality"></use></svg></a>
+                    <a href="" class="navbar__panel--link youtybe" title="YouTube"><svg><use xlink:href="img/svg/sprite.svg#youtube"></use></svg></a>
+                    <a href="" class="navbar__panel--link facebook" title="Facebook"><svg><use xlink:href="img/svg/sprite.svg#facebook"></use></svg></a>
+                    <a href="" class="navbar__panel--link" title="Официальный сайт Haval"><svg><use xlink:href="img/svg/sprite.svg#home"></use></svg></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="dealers">
+    <div class="dealers-wrapper">
+        <div class="dealers__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40662.60155319446!2d30.325097976834606!3d50.43341498491365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1635318891103!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="dealers__list">
+            <label>
+                <select class="justselect">
+                    <option selected="selected" value="">Вся Україна</option>
+                    <option id="harkovskaya-oblast" value="49.9922, 36.2312">Харківська область</option><option id="odesskaya-oblast" value="46.460832, 30.726888">Одеська область</option><option id="zaporozhskaya-oblast" value="47.8388, 35.1396">Запорізька область</option><option id="kievskaya-oblast" value="50.462748, 30.564271">Київська область</option><option id="lvivska-oblast" value="49.8241, 23.9273">Львівська область</option><option id="kirovogradskaya-oblast" value="48.4962108, 32.2229352">Кіровоградська область</option><option id="chernigovskaya-oblast" value="51.5336, 31.2672">Чернігівська область</option><option id="sumskaya-oblast" value="50.9083, 34.8438">Сумська область</option><option id="ivano-frankovskaya-oblast" value="48.9497, 24.6864">Івано-Франківська область</option><option id="volynskaya-oblast" value="50.7442, 25.3875">Волинська область</option><option id="poltavskaya-oblast" value="49.561995, 34.515542">Полтавська область</option><option id="cherkasskaya-oblast" value="49.421084, 32.053350">Черкаська область</option><option id="hersonskaya-oblast" value="46.655914, 32.606063">Херсонська область</option><option id="ternopolskaya-oblast" value="49.529539, 25.605783">Тернопільська область</option><option id="dnepropetrovskaya-oblast" value=" 48.479106, 35.002333 ">Дніпропетровська область</option><option id="vinnickaya-oblast" value=" 49.279870, 28.474487">Вінницька область</option><option id="doneckaya-oblast" value="47.102929, 37.629041 ">Донецька область</option><option id="hmelnickaya-oblast" value="49.433355339498775, 27.02130397667595">Хмельницька область</option><option id="nikolaevskaya-oblast" value="46.95750776663452, 32.010810108967995">Миколаївська область</option>
+                </select>
+            </label>
+            <ul class="dealers-list">
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+                <li class="dealers-item">
+                    <a href="#" class="dealers-item__title">ПОЛТАВА - ТОВ "ПП АВТОСНАБ"</a>
+                    <p class="dealers-item__address">м. Полтава, вул. Київське шосе, 21А</p>
+                    <ul class="dealers-item__phone">
+                        <li>0532-649-301</li>
+                        <li>095-888-52-77</li>
+                        <li>097-888-52-77</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wrapper">
+            <nav class="footer__menu">
+                <a href="#">Автомобілі</a>
+                <a href="#">Дилери</a>
+                <a href="#">Новини</a>
+                <a href="#">Контакти</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Libs js -->
+<script src="js/vendor/swiper-bundle.min.js"></script>
+<script src="js/vendor/owl.carousel.min.js"></script>
+<script src="js/vendor/jquery.fancybox.min.js"></script>
+<script src="js/vendor/justselect.min.js"></script>
+<!-- Main js -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
